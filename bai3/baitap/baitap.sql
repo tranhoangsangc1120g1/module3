@@ -46,3 +46,4 @@ typeofbook varchar (45) not null,
 booknumber varchar(15) not null,
 foreign key (booknumber) references book(booknumber)
 );
+
